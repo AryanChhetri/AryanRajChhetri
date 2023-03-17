@@ -1,0 +1,81 @@
+*{
+    background-color: #F9F5EB	;
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+  }
+div {
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        left:30%;
+        top:30%;
+ }
+ .card {
+    background-color: #F9F5EB;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+
+  nav {
+    background-color: #e0dcd3;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    background-color:#e0dcd3;
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  nav ul {
+    background-color:#e0dcd3;
+  }
+  
+  select {
+    border: 2px solid black;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #e0dcd3;
+    width: 60px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  select:focus {
+    outline: none;
+    border-color: #6b6bff;
+  }
+  option {
+    color: #333;
+  }
+  
+  
